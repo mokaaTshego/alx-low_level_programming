@@ -14,9 +14,11 @@ for (i = 'A'; i <= 'Z' ; i++)
 
 	putchar(lowercase);
 }
-for ( j = 'A' ; j <= 'Z' ; j++)
+
+
+for (j = 'A' ; j <= 'Z' ; j++)
 {
-	uppercase = toupper(i);
+	uppercase = toupper(j);
 
 	putchar(uppercase);
 
