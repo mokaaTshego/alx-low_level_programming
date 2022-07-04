@@ -7,16 +7,19 @@
 */
 int main(void)
 {
-int i, lowercase, uppercase;
-for (i='A'; i <= 'Z' ; i++)
+int i, j, lowercase, uppercase;
+for (i = 'A'; i <= 'Z' ; i++)
 {
 	lowercase = tolower(i);
 
 	putchar(lowercase);
-	
+}
+for ( j = 'A' ; j <= 'Z' ; j++)
+{
 	uppercase = toupper(i);
 
 	putchar(uppercase);
+
 }
 putchar('\n');
 
