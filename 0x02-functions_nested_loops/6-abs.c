@@ -18,6 +18,6 @@ int _abs(int i)
 	}
 	else
 	{
-		return ((-1)*i);
+		return ((-1) * i);
 	}
 }
