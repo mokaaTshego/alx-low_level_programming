@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main- fizz buzz
+ *
  * Return : Always 0.
  */
 int main(void)
@@ -30,7 +31,9 @@ int main(void)
 			putchar(' ');
 		}
 	}
+
 	i++;
+
 	putchar('\n');
 	return (0);
 }
