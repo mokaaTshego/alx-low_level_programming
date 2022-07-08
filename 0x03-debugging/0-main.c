@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * * main - debugging positive_or _negative function
  * * Return: 0
  */
+
 int main(void)
 {
 	int i;
