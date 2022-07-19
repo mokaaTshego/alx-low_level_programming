@@ -4,14 +4,14 @@
  * @s : pointer
  * @b :constant byte
  * @n : bytes
- * Return  : Always 0 (succes).
+ * Return: Always 0.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
 	i = 0;
-	while(i < n)
+	while (i < n)
 	{
 		*(s + i) = b;
 		i++;
