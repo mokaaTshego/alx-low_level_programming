@@ -8,21 +8,15 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j, sum1, sum2;
+	int j, sum1, sum2;
 
 	sum1 = 0;
 	sum2 = 0;
 
 	while (j < size)
 	{
-		i = (j * size) + j;
-		sum1 += a[i];
-		j++;
-	}
-	while (j <= size)
-	{
-		i = (j * size) - j;
-		sum2 += a[i];
+		sum1 += *(a + (size * j + j));
+		sum2 += *(a + (size * j + size - 1 - j));
 		j++;
 	}
 	printf("%d, %d\n", sum1, sum2);
