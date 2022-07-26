@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	unsigned i, j;
+	unsigned int i, j;
 	char *ptr;
 
 	i = 0;
@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for(; j < i; j++)
+		for (; j < i; j++)
 		{
 			ptr[j] = str[j];
 		}
