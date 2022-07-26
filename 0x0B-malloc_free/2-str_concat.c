@@ -9,9 +9,9 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *ptr;
 	int i, j;
-	
+	char *ptr;
+
 	j = 0;
 	if (s1 == NULL)
 	{
