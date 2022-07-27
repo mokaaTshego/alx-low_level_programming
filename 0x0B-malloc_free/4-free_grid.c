@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * free_grid - frees a 2 dimensional grid previously 
+ * free_grid - frees a 2 dimensional grid previously
  * created by your alloc_grid function
  * @grid : freed grid
  * @height : height
@@ -15,7 +15,7 @@ void free_grid(int **grid, int height)
 	count = 0;
 	if (height == 0 || grid == NULL)
 		return;
-	while(count < height)
+	while (count < height)
 	{
 		free(grid[count]);
 		count++;
